@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  font-family: "Roboto";
+  margin: 0 auto;
+}
+
+.mainContainer {
+  padding: 50px;
+  display: flex;
+  width: 900px;
+  background-color: #ff8787;
+  margin: auto;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-user {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.rightSide-textContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.secondTextContainer {
+  border-left: 4px solid black;
+  padding: 0 0 30px 20px;
+}
+
+.inner-work-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.year {
+  width: 150px;
+}
+
+.work {
+  display: flex;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 7px;
+}
+
+.skills-rating {
+  display: flex;
+  height: 25px;
+}
+
+.skills {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill {
+  width: 200px;
+}
+
+.award-container {
+  display: flex;
+  gap: 15px;
+}
+
+.interests {
+  display: flex;
+  align-items: center;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fa-laptop,
+.fa-pencil,
+.fa-film,
+.fa-music {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  color: #ff8787;
+  background-color: black;
+}
+
+.interests-p {
+  margin: 0 !important;
+}
+
+.inner-education-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid black;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.fa-briefcase {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.fa-award {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.fa-book {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.fa-lightbulb {
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+}
